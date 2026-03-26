@@ -1,6 +1,5 @@
 package br.com.erudio.model;
 
-public class Greeting {
-    public Greeting(long l, String format) {
+    public record Greeting (long id, String content) {
     }
-}
+
